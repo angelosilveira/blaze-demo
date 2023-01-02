@@ -9,7 +9,12 @@ export type InputProps = {
 const Input = ({ title, error, name, id, ...rest }: InputProps, ref: any) => (
   <S.Wrapper>
     {!!title && <label htmlFor={name}>{title}</label>}
-    <input {...rest} ref={ref} {...(title ? { id: name } : {})} />
+    <input
+      {...rest}
+      ref={ref}
+      {...(title ? { id: name } : {})}
+      aria-label={name}
+    />
     {!!error && <S.Error>{error}</S.Error>}
   </S.Wrapper>
 );

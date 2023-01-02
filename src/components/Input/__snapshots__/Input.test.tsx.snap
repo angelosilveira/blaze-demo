@@ -43,6 +43,7 @@ exports[`<Input /> > Renders with title 1`] = `
     Title
   </label>
   <input
+    aria-label="title"
     id="title"
   />
 </div>

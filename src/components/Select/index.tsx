@@ -14,13 +14,13 @@ export type SelectProps = {
 } & HTMLAttributes<HTMLSelectElement>;
 
 const Select = (
-  { options, title, label, error, ...rest }: SelectProps,
+  { options, title, label, id, error, ...rest }: SelectProps,
   ref: any
 ) => (
   <S.Wrapper>
     {!!label && <label>{label}</label>}
-    <select {...rest} ref={ref}>
-      <option value="" disabled>
+    <select {...rest} ref={ref} data-testid={id}>
+      <option value="" disabled selected>
         {title}
       </option>
       {options.map((option) => (

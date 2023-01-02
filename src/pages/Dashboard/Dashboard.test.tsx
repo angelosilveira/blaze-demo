@@ -5,8 +5,9 @@ import Dashboard from '.';
 
 describe('<Dashboard />', () => {
   it('should render the dashboard with loading', () => {
-    renderWithTheme(<Dashboard />);
+    const { container } = renderWithTheme(<Dashboard />);
 
     expect(screen.getByTestId('loading')).toBeInTheDocument();
+    expect(container.firstChild).toMatchSnapshot();
   });
 });

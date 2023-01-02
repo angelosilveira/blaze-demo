@@ -121,6 +121,7 @@ export const CreateProposal = () => {
                 {...register('marital')}
                 label="Estado Cívil*"
                 title="Selecione o estado cívil"
+                id="marital"
                 options={[
                   {
                     value: 'solteiro',
