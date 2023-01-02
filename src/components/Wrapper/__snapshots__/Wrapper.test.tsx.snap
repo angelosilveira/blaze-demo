@@ -1,0 +1,28 @@
+// Vitest Snapshot v1
+
+exports[`<Wrapper /> > should render the wrapper 1`] = `
+.c0 {
+  max-width: 480px;
+  background-color: #fff;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<main
+  class="c0"
+>
+  <span>
+    App vendas
+  </span>
+</main>
+`;

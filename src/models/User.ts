@@ -1,0 +1,20 @@
+export type User = {
+  date_proposal: string;
+  cnpj_cpf: string;
+  name: string;
+  rg: string;
+  marital: string;
+  phone: string;
+  date_birth: string;
+  cel: string;
+  sex: string;
+  email: string;
+  state: string;
+  city: string;
+  neighborhood: string;
+  address: string;
+  number: string;
+  zipcode: string;
+  complement: string;
+  id: number;
+};

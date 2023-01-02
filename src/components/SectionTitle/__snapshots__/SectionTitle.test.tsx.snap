@@ -1,0 +1,24 @@
+// Vitest Snapshot v1
+
+exports[`<SectionTitle /> > should render the heading 1`] = `
+.c0 {
+  border-bottom: 1px solid #e9e9e9;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.c0 h2 {
+  font-size: 2.0rem;
+  color: #030517;
+  margin-bottom: 0;
+}
+
+<div
+  class="c0"
+>
+  <h2>
+    app de vendas
+  </h2>
+</div>
+`;

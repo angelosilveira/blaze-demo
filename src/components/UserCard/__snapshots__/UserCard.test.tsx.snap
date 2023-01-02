@@ -1,0 +1,168 @@
+// Vitest Snapshot v1
+
+exports[`<UserCard /> > should render the heading 1`] = `
+.c0 {
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e9e9e9;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0:first-child {
+  border-top: 0;
+}
+
+.c0 svg {
+  font-size: 2.8rem;
+  -webkit-flex-basis: 50px;
+  -ms-flex-preferred-size: 50px;
+  flex-basis: 50px;
+  margin-right: 10px;
+}
+
+.c1 {
+  width: 100%;
+  font-size: 1.4rem;
+}
+
+.c2 {
+  color: #030517;
+  text-transform: uppercase;
+}
+
+.c3 {
+  color: #ccc;
+  display: block;
+}
+
+.c4 {
+  color: #ccc;
+  display: block;
+  text-transform: uppercase;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 button {
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c5 button:hover {
+  background-color: rgba(0,0,0,0.1);
+}
+
+.c5 svg {
+  font-size: 2rem;
+  margin: 0;
+}
+
+<div
+  class="c0"
+>
+  <svg
+    fill="currentColor"
+    height="1em"
+    stroke="currentColor"
+    stroke-width="0"
+    viewBox="0 0 24 24"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M20.29 8.29 16 12.58l-1.3-1.29-1.41 1.42 2.7 2.7 5.72-5.7zM4 8a3.91 3.91 0 0 0 4 4 3.91 3.91 0 0 0 4-4 3.91 3.91 0 0 0-4-4 3.91 3.91 0 0 0-4 4zm6 0a1.91 1.91 0 0 1-2 2 1.91 1.91 0 0 1-2-2 1.91 1.91 0 0 1 2-2 1.91 1.91 0 0 1 2 2zM4 18a3 3 0 0 1 3-3h2a3 3 0 0 1 3 3v1h2v-1a5 5 0 0 0-5-5H7a5 5 0 0 0-5 5v1h2z"
+    />
+  </svg>
+  <div
+    class="c1"
+  >
+    <h3
+      class="c2"
+    >
+      angelo silveira
+    </h3>
+    <span
+      class="c3"
+    >
+      06276555507
+    </span>
+    <span
+      class="c4"
+    >
+      Aracatu
+       - 
+      BA
+    </span>
+  </div>
+  <div
+    class="c5"
+  >
+    <button
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M4 21a1 1 0 0 0 .24 0l4-1a1 1 0 0 0 .47-.26L21 7.41a2 2 0 0 0 0-2.82L19.42 3a2 2 0 0 0-2.83 0L4.3 15.29a1.06 1.06 0 0 0-.27.47l-1 4A1 1 0 0 0 3.76 21 1 1 0 0 0 4 21zM18 4.41 19.59 6 18 7.59 16.42 6zM5.91 16.51 15 7.41 16.59 9l-9.1 9.1-2.11.52z"
+        />
+      </svg>
+    </button>
+    <button
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M5 20a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8h2V6h-4V4a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v2H3v2h2zM9 4h6v2H9zM8 8h9v12H7V8z"
+        />
+        <path
+          d="M9 10h2v8H9zm4 0h2v8h-2z"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;

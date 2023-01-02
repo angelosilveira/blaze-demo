@@ -1,0 +1,53 @@
+// Vitest Snapshot v1
+
+exports[`<Select /> > should render the select 1`] = `
+.c0 {
+  margin-bottom: 1rem;
+}
+
+.c0 select {
+  display: block;
+  width: 100%;
+  padding: 1rem 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+<div
+  class="c0"
+>
+  <select>
+    <option
+      disabled=""
+      value=""
+    >
+      Estados
+    </option>
+    <option
+      value="AC"
+    >
+      Acre
+    </option>
+    <option
+      value="AL"
+    >
+      Alagoas
+    </option>
+    <option
+      value="AP"
+    >
+      Amapá
+    </option>
+  </select>
+</div>
+`;

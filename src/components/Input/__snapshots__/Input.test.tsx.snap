@@ -1,0 +1,49 @@
+// Vitest Snapshot v1
+
+exports[`<Input /> > Renders with title 1`] = `
+.c0 {
+  margin-bottom: 1rem;
+}
+
+.c0 input {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  height: 38px;
+}
+
+.c0 input:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+}
+
+<div
+  class="c0"
+>
+  <label
+    for="title"
+  >
+    Title
+  </label>
+  <input
+    id="title"
+  />
+</div>
+`;
