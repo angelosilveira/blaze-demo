@@ -68,12 +68,20 @@ const Dashboard = () => {
         <S.Subtitle>Quantidade de propostas por cidade</S.Subtitle>
 
         <S.Content>
-          <S.GraphContainer>
-            <Pie data={dataPie} />
-          </S.GraphContainer>
-          <S.ButtonGrooups>
-            <Button onClick={() => navigate('/')}>Voltar</Button>
-          </S.ButtonGrooups>
+          {data.length < 1 ? (
+            <S.UsersNotFound>
+              Não existe nenhuma proposta por cidade no momento!
+            </S.UsersNotFound>
+          ) : (
+            <>
+              <S.GraphContainer>
+                <Pie data={dataPie} />
+              </S.GraphContainer>
+              <S.ButtonGrooups>
+                <Button onClick={() => navigate('/')}>Voltar</Button>
+              </S.ButtonGrooups>
+            </>
+          )}
         </S.Content>
       </Container>
     </>

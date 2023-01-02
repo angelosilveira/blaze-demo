@@ -26,3 +26,10 @@ export const Subtitle = styled.div`
   font-size: 1.4rem;
   font-weight: bold;
 `;
+
+export const UsersNotFound = styled.div`
+  text-align: center;
+  padding: 10px;
+  border: 1px dashed #e9e9e9;
+  margin: auto;
+`;
