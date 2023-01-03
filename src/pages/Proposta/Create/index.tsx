@@ -112,8 +112,8 @@ export const CreateProposal = () => {
               <Input
                 title="Nome do Titular*"
                 placeholder="Nome do Titular*"
-                {...register('name')}
                 error={errors.name?.message}
+                {...register('name')}
               />
               <Input title="IE/RG" placeholder="IE/RG" {...register('rg')} />
               <Select
