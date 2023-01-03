@@ -1,8 +1,4 @@
-import {
-  forwardRef,
-  ForwardRefRenderFunction,
-  InputHTMLAttributes,
-} from 'react';
+import { forwardRef, InputHTMLAttributes } from 'react';
 import * as S from './styles';
 
 export type InputProps = {
@@ -10,10 +6,7 @@ export type InputProps = {
   error?: string;
 } & InputHTMLAttributes<HTMLInputElement>;
 
-const Input: ForwardRefRenderFunction<HTMLInputElement, InputProps> = (
-  { title, error, name, id, ...rest }: InputProps,
-  ref: any
-) => (
+const Input = ({ title, error, name, id, ...rest }: InputProps, ref: any) => (
   <S.Wrapper>
     {!!title && <label htmlFor={name}>{title}</label>}
     <input
@@ -27,4 +20,4 @@ const Input: ForwardRefRenderFunction<HTMLInputElement, InputProps> = (
   </S.Wrapper>
 );
 
-export default Input;
+export default forwardRef(Input);
