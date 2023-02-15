@@ -1,15 +1,7 @@
 import { ButtonHTMLAttributes } from 'react';
 import * as S from './styles';
 
-export type VariantProps =
-  | 'primary'
-  | 'secondary'
-  | 'success'
-  | 'danger'
-  | 'warning'
-  | 'info'
-  | 'light'
-  | 'dark';
+export type VariantProps = 'gray' | 'red';
 
 export type ButtonProps = {
   children: React.ReactNode;
@@ -20,7 +12,7 @@ export type ButtonProps = {
 export const Button = ({
   children,
   icon,
-  variant = 'primary',
+  variant = 'gray',
   ...rest
 }: ButtonProps) => (
   <S.Wrapper variant={variant} {...rest}>

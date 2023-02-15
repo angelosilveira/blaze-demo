@@ -23,6 +23,7 @@
     "react-router-dom": "^6.6.1",
     "react-toastify": "^9.1.1",
     "styled-components": "^5.3.6",
+    "styled-media-query": "^2.1.2",
     "sweetalert": "^2.1.2",
     "yup": "^0.32.11"
   },
